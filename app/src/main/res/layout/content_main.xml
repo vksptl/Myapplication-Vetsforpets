@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#D81DECD4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vikas.myapplication.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <TextView
+         android:background="@layout/curveborder"
+         android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20pt"
+        android:layout_marginRight="20pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingTop="5pt"
+        android:paddingBottom="5pt"
+        android:paddingLeft="5pt"
+        android:paddingRight="5pt"
+        android:textAlignment="inherit"
+        android:text="About App"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:textSize="25dp"/>
+
+     <com.synnapps.carouselview.CarouselView
+         android:layout_width="match_parent"
+         android:layout_height="200dp"
+         android:layout_below="@+id/text"
+         android:id="@+id/carousel"
+         app:slideInterval="3000"
+         android:layout_marginLeft="27dp"
+         android:layout_marginTop="5dp"
+         android:layout_marginBottom="5dp"
+         android:layout_marginRight="27dp"
+         android:focusableInTouchMode="true">
+
+     </com.synnapps.carouselview.CarouselView>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@layout/curveborder"
+         android:layout_marginTop="2dp"
+         android:layout_marginLeft="25dp"
+         android:layout_marginRight="25dp"
+         android:textColor="#ffffff"
+         android:textStyle="bold"
+         android:paddingTop="10pt"
+         android:paddingBottom="10pt"
+         android:textAlignment="inherit"
+         android:text="VetsforPets    is  our   Minor    Project Initaitive,created to cater to the rising need of consultation and mediation for the pets. With few simple clicks,you have the previlege to get  your  query  regarding  the  pet  resolved  and  booking  an Appointment is also not a Hedious Task."
+         android:paddingLeft="20dp"
+         android:paddingRight="10dp"
+         android:id="@+id/text2"
+         android:layout_below="@+id/carousel"
+      />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Common Pet Diseases"
+         android:id="@+id/button"
+         android:layout_below="@id/text2"
+         android:layout_marginTop="10dp"
+         android:background="@layout/curveborder"
+         android:textColor="@android:color/white"
+         android:layout_alignParentBottom="true"
+         android:layout_alignLeft="@+id/text"
+         android:layout_alignStart="@+id/text"
+         android:layout_alignRight="@+id/text"
+         android:layout_alignEnd="@+id/text" />
+    </RelativeLayout>
+</ScrollView>

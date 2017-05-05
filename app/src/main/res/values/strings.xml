@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">vetsforpets</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="date_label_set">Press the button to set the date</string>
+    <string name="date_button_set">Set Date</string>
+    <string name="date_view_set">The Date is: </string>
+    <string name="date_selected"></string>
+
+    <!--
+    <string-array name="brew_array">
+        <item>10:00 AM</item>
+        <item>10:15 AM</item>
+        <item>10:30 AM</item>
+        <item>10:45 AM</item>
+        <item>11:00 AM</item>
+        <item>11:15 AM</item>
+        <item>11:30 AM</item>
+        <item>11:45 AM</item>
+        <item>12:00 PM</item>
+        <item>12:15 PM</item>
+        <item>12:30 PM</item>
+        <item>12:45 PM</item>
+        <item>01:00 PM</item>
+        <item>01:15 PM</item>
+        <item>01:30 PM</item>
+        <item>01:45 PM</item>
+        <item>02:00 PM</item>
+        <item>02:15 PM</item>
+        <item>02:30 PM</item>
+        <item>02:45 PM</item>
+        <item>03:00 PM</item>
+        <item>03:15 PM</item>
+        <item>03:30 PM</item>
+        <item>03:45 PM</item>
+        <item>04:00 PM</item>
+        <item>04:15 PM</item>
+        <item>04:30 PM</item>
+        <item>04:45 PM</item>
+        <item>05:00 PM</item>
+        <item>05:15 PM</item>
+        <item>05:30 PM</item>
+        <item>05:45 PM</item>
+        <item>06:00 PM</item>
+        <item>06:15 PM</item>
+        <item>06:30 PM</item>
+        <item>06:45 PM</item>
+    </string-array>-->
+</resources>

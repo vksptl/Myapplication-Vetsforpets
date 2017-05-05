@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DogsActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.synnapps.carouselview.CarouselView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/carousel"
+            app:slideInterval="3000"
+            android:focusableInTouchMode="true">
+
+        </com.synnapps.carouselview.CarouselView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="0dp"
+            card_view:contentPadding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="DOGS"
+                    android:textColor="#204060"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#0091EA"
+                    android:layout_marginBottom="6dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    android:text="Our dogs are faithful companions, and they depend on us for good care, to help your canine friend live a healthy life, you should know some of the most common health problems dogs face, their signs, and what you can do about them."/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Click here"
+           android:id="@+id/b1"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</android.support.v4.widget.NestedScrollView>

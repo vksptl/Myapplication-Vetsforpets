@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vikas.myapplication.Account">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:padding="30dp"
+       >
+       <android.support.v7.widget.CardView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <ImageView
+
+                   android:layout_marginTop="20dp"
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:id="@+id/cr1"
+                   android:layout_marginLeft="55dp"
+                   android:src="@drawable/paw"
+                   android:layout_centerHorizontal="true"/>
+
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="35dp"
+                   android:textAlignment="center"
+                   android:textStyle="bold"
+                   android:paddingTop="10dp"
+                   android:background="@layout/curveborder1"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="35dp"
+                   android:text="Your First Name"
+                   android:layout_below="@id/cr1"
+                   android:id="@+id/at1"/>
+
+               <TextView
+                   android:textAlignment="center"
+                   android:layout_width="200dp"
+                   android:layout_height="35dp"
+                   android:paddingTop="10dp"
+                   android:background="@layout/curveborder1"
+                   android:layout_below="@id/at1"
+                   android:text="Your Last Name"
+                   android:textStyle="bold"
+                   android:layout_marginTop="15dp"
+                   android:layout_marginLeft="35dp"
+                   android:id="@+id/at2"/>
+
+
+               <TextView
+                   android:textAlignment="center"
+                   android:paddingTop="10dp"
+                   android:layout_width="200dp"
+                   android:layout_height="35dp"
+                   android:text="Email"
+                   android:textStyle="bold"
+                   android:background="@layout/curveborder1"
+                   android:layout_below="@id/at2"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="35dp"
+                   android:id="@+id/at3"/>
+               <Button
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="30dp"
+                   android:textStyle="bold"
+                   android:text="Cancel your Appointment"
+                   android:layout_below="@id/at3"
+                   android:id="@+id/b1"
+                   />
+           </RelativeLayout>
+
+       </android.support.v7.widget.CardView>
+
+   </RelativeLayout>
+</RelativeLayout>

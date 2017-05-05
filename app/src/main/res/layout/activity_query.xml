@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <com.synnapps.carouselview.CarouselView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/carousel"
+                app:slideInterval="3000"
+                android:focusableInTouchMode="true">
+
+            </com.synnapps.carouselview.CarouselView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/carousel"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                >
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="20dp"
+                    android:orientation="horizontal">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:id="@+id/s1"
+                        >
+                        <EditText android:id="@+id/qnam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:hint="Name" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:id="@+id/s2"
+                        android:layout_below="@+id/s1"
+                        >
+                        <EditText android:id="@+id/quer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textShortMessage"
+
+                            android:hint="Query" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:id="@+id/s3"
+                        android:layout_below="@+id/s2"
+                        >
+                        <EditText android:id="@+id/qemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:hint="Email" />
+                    </android.support.design.widget.TextInputLayout>
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:id="@+id/s4"
+                        android:layout_below="@+id/s3"
+                        >
+                        <EditText android:id="@+id/qphone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="number"
+                            android:hint="Phone Number" />
+                    </android.support.design.widget.TextInputLayout>
+
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/qsubmit"
+                        android:layout_below="@+id/s4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginBottom="24dp"
+                        android:padding="12dp"
+                        android:text="Submit"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img1"
+                        android:src="@drawable/instagram"
+                        android:layout_below="@+id/qsubmit"
+                        android:layout_alignLeft="@+id/s4"
+                        android:layout_alignStart="@+id/s4" />
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img2"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/facebook"
+                        android:layout_alignTop="@+id/img3"
+                        android:layout_toRightOf="@+id/img3"
+                        android:layout_toEndOf="@+id/img3" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img3"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/twitter"
+                        android:layout_alignTop="@+id/img4"
+                        android:layout_toRightOf="@+id/img4"
+                        android:layout_toEndOf="@+id/img4" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/img4"
+                        android:layout_marginRight="2dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_alignTop="@+id/img1"
+                        android:layout_toRightOf="@+id/img1"
+                        android:layout_toEndOf="@+id/img1" />
+
+
+
+
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

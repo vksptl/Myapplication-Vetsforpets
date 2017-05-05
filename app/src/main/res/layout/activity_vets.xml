@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vikas.myapplication.Vets">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D81DECD4"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:id="@+id/rel">
+    <TextView
+        android:background="@layout/curveborder"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8pt"
+        android:layout_marginRight="8pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:paddingLeft="10pt"
+        android:paddingRight="5pt"
+        android:textAlignment="inherit"
+        android:id="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:text="What is a Veterinarian?"
+        android:layout_marginTop="2dp"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:background="@layout/curveborder"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8pt"
+        android:layout_below="@id/text"
+        android:layout_marginRight="8pt"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:paddingTop="8pt"
+        android:paddingBottom="8pt"
+        android:paddingLeft="10pt"
+        android:paddingRight="5pt"
+        android:textAlignment="inherit"
+        android:id="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:text="A veterinarian is a medical professional who protects the health and well-being of both animals and people. They diagnose and control animal diseases and treat sick and injured animals. They also advise owners on proper care of their pets and livestock. Veterinarians provide a wide range of services in private practice, teaching, research, government service, public health, military service, private industry, and other areas."/>
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rel1"
+        android:background="#D81DECD4"
+        android:paddingBottom="6dp"
+        android:layout_below="@id/rel"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:background="@layout/curveborder"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8pt"
+            android:layout_marginRight="8pt"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+
+            android:paddingTop="10pt"
+            android:paddingBottom="8pt"
+            android:paddingLeft="10pt"
+            android:paddingRight="5pt"
+            android:textAlignment="inherit"
+            android:id="@+id/text2"
+            android:layout_centerHorizontal="true"
+            android:text="What does a Veterinarian do?"
+            android:layout_marginTop="10dp"
+            android:textSize="15dp"
+            />
+
+
+
+        <TextView
+            android:background="@layout/curveborder"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8pt"
+            android:layout_below="@+id/text2"
+            android:layout_marginRight="8pt"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:paddingTop="8pt"
+            android:paddingBottom="8pt"
+            android:paddingLeft="10pt"
+            android:paddingRight="5pt"
+            android:textAlignment="inherit"
+            android:id="@+id/text3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="In many respects, a veterinarian is similar to a pediatrician. Animals cannot talk like human beings, and much of the clinical history is obtained from the owner or client, as a pediatrician would obtain from a child's parents. Excellent people skills and communication skills are required."
+            android:textSize="15dp"/>
+
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel2"
+            android:background="#D81DECD4"
+            android:paddingBottom="6dp"
+            android:layout_below="@id/rel1"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:paddingTop="10pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text4"
+                android:layout_centerHorizontal="true"
+                android:text="Are there different types of Veterinarians?"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_below="@+id/text4"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="8pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Veterinarians may be employed or contracted by veterinary clinics and hospitals, government agencies, educational institutions,     wildlife management groups, zoos,aquariums, ranches, farming-related businesses, or pharmaceutical companies."
+                android:textSize="15dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel3"
+            android:background="#D81DECD4"
+            android:paddingBottom="6dp"
+            android:layout_below="@id/rel2"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:paddingTop="10pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text6"
+                android:layout_centerHorizontal="true"
+                android:text="What is a veterinary specialist?"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_below="@+id/text6"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="8pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text7"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="While most enter general practice, veterinarians, like medical doctors, may choose to complete additional training and specialize in a specific field of veterinary medicine. Perhaps surprisingly, there are currently twenty-two sub-disciplines recognized by the American Board of Veterinary Specialties."
+                android:textSize="15dp"/>
+
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel4"
+            android:background="#D81DECD4"
+            android:paddingBottom="6dp"
+            android:layout_below="@id/rel3"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:paddingTop="10pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text8"
+                android:layout_centerHorizontal="true"
+                android:text="What is the workplace of a Veterinarian like?"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_below="@+id/text8"
+                android:layout_marginRight="5pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="8pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text9"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Small animal veterinarians typically    work in veterinary clinics or veterinary hospitals, or both. Large animal veterinarians often spend more time traveling to see their patients at the primary facilities which house them (zoos, farms, etc)."
+                android:textSize="15dp"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rel5"
+            android:background="#D81DECD4"
+            android:paddingBottom="6dp"
+            android:layout_below="@id/rel4"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_marginRight="8pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+
+                android:paddingTop="10pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text10"
+                android:layout_centerHorizontal="true"
+                android:text="What is the biggest misconception about being a Veterinarian?"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                />
+
+
+
+            <TextView
+                android:background="@layout/curveborder"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8pt"
+                android:layout_below="@+id/text10"
+                android:layout_marginRight="5pt"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:paddingTop="8pt"
+                android:paddingBottom="8pt"
+                android:paddingLeft="10pt"
+                android:paddingRight="5pt"
+                android:textAlignment="inherit"
+                android:id="@+id/text11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="The initial image of a veterinarian for most people is of someone who is fortunate to spend every working day with cute and cuddly animals and their kind and responsible owners. While this can be and often is part of the reality of a veterinary practice, it does not describe the other aspects and possible scenarios in a day in the life of a vet. Throughout his or her career, a veterinarian may encounter abusive animal owners; aggressive or dangerous animals; and difficult recommendations and decisions"
+                android:textSize="15dp"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

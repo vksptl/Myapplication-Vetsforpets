@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group_up">
+        <item
+            android:id="@+id/account"
+            android:title="Your Account" />
+
+        <item
+            android:id="@+id/signup"
+            android:title="Sign Up" />
+        <item
+            android:id="@+id/signin"
+            android:title="Sign In" />
+
+        <item
+            android:id="@+id/appoint"
+            android:title="Appointment" />
+        <item
+            android:id="@+id/query"
+            android:title="Query" />
+
+        <item
+            android:id="@+id/about_vets"
+            android:title="About Vets" />
+
+
+    </group>
+
+
+    <group android:id="@+id/group_down">
+
+        <item
+            android:id="@+id/Contact_us"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Our Team" />
+    </group>
+
+</menu>

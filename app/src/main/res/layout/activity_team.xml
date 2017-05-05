@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF3FFF9C"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.vikas.myapplication.Team">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear1"
+        android:background="@layout/curveborder2">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paw"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Vikas Patel"
+                android:id="@+id/name1"
+                android:paddingTop="10dp"
+                android:paddingLeft="25dp"
+                android:textColor="#ffff"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#ffff"
+                android:text="vksptl669@gmail.com" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear2"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp"
+        android:background="@layout/curveborder2">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/paw"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kalpit Gupta"
+            android:id="@+id/name2"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:textColor="#ffff"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="18dp"
+            android:textColor="#ffff"
+            android:text="kalpitgupta@gmail.com" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear3"
+        android:layout_below="@id/linear2"
+        android:layout_marginTop="10dp"
+        android:background="@layout/curveborder2">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paw"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aayush Kumar"
+                android:id="@+id/name3"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textColor="#ffff"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#ffff"
+                android:paddingLeft="8dp"
+                android:text="aaykmr@gmail.com" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear4"
+        android:layout_below="@id/linear3"
+        android:layout_marginTop="10dp"
+        android:background="@layout/curveborder2">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paw"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mudit Kumar"
+                android:id="@+id/name4"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textColor="#ffff"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#ffff"
+                android:text="muditmahesh@gmail.com" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/linear5"
+        android:layout_below="@id/linear4"
+        android:layout_marginTop="10dp"
+        android:background="@layout/curveborder2">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/paw"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaurav Khattar"
+                android:id="@+id/name5"
+                android:paddingLeft="25dp"
+                android:paddingTop="10dp"
+                android:textColor="#ffff"
+                android:textSize="24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:textColor="#ffff"
+                android:text="gavravkhattar@gmail.com" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+</ScrollView>
